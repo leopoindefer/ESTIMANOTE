@@ -22,7 +22,7 @@ st.header("Combien de matière dont les notes sont connus avez-vous ?")
 matiereavecnote = st.number_input('Nombre de matière dont les notes sont connus', 1, 10)
 
 st.header("Combien de matière dont les notes sont à estimer avez-vous ?")
-matieresansnote = st.number_input('Nombre de matière dont la/les note/s sont à estimer', 1, 5)
+matieresansnote = st.number_input('Nombre de matière dont la/les note(s) sont à estimer', 1, 5)
 
 if matiereavecnote == 2:
 
